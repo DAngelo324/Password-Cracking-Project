@@ -20,7 +20,7 @@ To run this project, ensure you have the following tools installed on your syste
 1. Use the provided Python script to generate a set of hashed passwords.
 2. If needed, transfer the generated hash file to a Linux environment.
 3. Use Hashcat or John the Ripper to crack the hashes.
-4. Save Results: Cracked passwords are saved into cracked_passwords.txt
+
 # Using the Provided Scripts
 1. Generate Password Hashes
 2. Run the Python Script to generate a set of password hashes: python password_cracking.py (creates sample_hashes.txt, containing generated hashes)
@@ -30,9 +30,9 @@ To run this project, ensure you have the following tools installed on your syste
 # Explaination of Hashing Algorithms 
  # Md5, Sha-1, and SHA-256
  Hashing algorithms like MD5, SHA-1, and SHA-256 are used to securely store passwords by converting them into fixed-length strings of characters, regardless of the input length. These hashes are one-way functions, meaning they cannot be easily reversed to retrieve the original password. However, with enough computational power and the right tools, attackers can attempt to crack these hashes by comparing them against precomputed hash values (using wordlists, for example).
-  # MD5: Produces a 128-bit hash value. It is fast but considered insecure due to vulnerabilities to collisions.
-  # SHA-1: Produces a 160-bit hash value. More secure than MD5 but still vulnerable to certain attacks.
-  # SHA-256: Part of the SHA-2 family, producing a 256-bit hash value, which is currently considered secure.
+1. MD5: Produces a 128-bit hash value. It is fast but considered insecure due to vulnerabilities to collisions.
+2. SHA-1: Produces a 160-bit hash value. More secure than MD5 but still vulnerable to certain attacks.
+3. SHA-256: Part of the SHA-2 family, producing a 256-bit hash value, which is currently considered secure.
 # Overview of Hashcat and John the Ripper
   # Hashcat 
   Hashcat is a high-performance password-cracking tool that supports various hash types and attack modes. It uses optimized algorithms to efficiently crack hashes, leveraging GPU acceleration when available. Hashcat is known for its flexibility and speed, making it a preferred tool for professional penetration testers and security researchers.
