@@ -8,6 +8,8 @@ Utilizes Hashcat and John the Ripper to attempt to crack the generated hashes.
 Outputs the results of cracked passwords into a text file for review. 
 # Setting up the environment
 This can be done either in a Linux or Windows environment. If in Linux, Hashcat and John The Ripper are pre-installed, so all you have to do is file share the Python script to get the sample hashes to show up. In Windows, you would need to download Hashcat and John the Ripper. 
+https://hashcat.net/hashcat/ 
+https://www.openwall.com/john/ 
   # Prerequisites
 To run this project, ensure you have the following tools installed on your system:
 - Python (for generating hashes)
