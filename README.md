@@ -23,10 +23,10 @@ To run this project, ensure you have the following tools installed on your syste
 4. Save Results: Cracked passwords are saved into cracked_passwords.txt
 # Using the Provided Scripts
 1. Generate Password Hashes
-      # Run the Python Script to generate a set of password hashes: python password_cracking.py (creates sample_hashes.txt, containing generated hashes)
-2. Crack passwords with Hashcat
-3. Crack the Passwords with John the Ripper
-   Save cracked passwords to cracked_passwords.txt
+2. Run the Python Script to generate a set of password hashes: python password_cracking.py (creates sample_hashes.txt, containing generated hashes)
+3. Crack passwords with Hashcat
+4. Crack the Passwords with John the Ripper
+5. Save cracked passwords to cracked_passwords.txt
 # Explaination of Hashing Algorithms 
  # Md5, Sha-1, and SHA-256
  Hashing algorithms like MD5, SHA-1, and SHA-256 are used to securely store passwords by converting them into fixed-length strings of characters, regardless of the input length. These hashes are one-way functions, meaning they cannot be easily reversed to retrieve the original password. However, with enough computational power and the right tools, attackers can attempt to crack these hashes by comparing them against precomputed hash values (using wordlists, for example).
